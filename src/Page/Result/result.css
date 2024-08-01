@@ -1,0 +1,66 @@
+.result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .result-list {
+    width: 80%;
+    max-width: 800px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result__item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result__tag {
+    margin-left: 10px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+  
+  .result__tag--true {
+    background-color: #1abc9c;
+    color: #fff;
+  }
+  
+  .result__tag--false {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .result__answer {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .result__answer input {
+    margin-right: 10px;
+  }
+  
+  .result__item--selected {
+    font-weight: bold;
+  }
+  
+  .result__item--correct {
+    /* color: #d4edda; */
+    color: #59f57d;
+  }
+  
+  
+  
